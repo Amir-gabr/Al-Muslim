@@ -1,0 +1,70 @@
+/*====*/
+/*====*/
+/*====*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ============== */
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* =========== */
+
+
+/* =========== */
+header {
+  background-color: rgba(255, 255, 237, 0.699);
+  z-index: 100;
+}
+#lap-screen ul li  {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(56, 56, 56);
+
+}
+#lap-screen ul li:hover  {
+  color: black;
+}
+#to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1d1d1;
+  border-radius: 50%;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+}
+
+footer {
+  background-color: rgb(228, 228, 228);
+  height: 100px;
+}

@@ -1,0 +1,35 @@
+ /* == */
+ /* == */
+main {
+  background-color: #000;
+  padding-top: 100px;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0);
+  min-height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-name {
+  background-color: rgba(255, 255, 255, 0.473);
+  border-radius: 20px;
+  padding: 40px 0;
+}
+.card-number {
+  background: #000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  filter: drop-shadow(0 0 20px rgb(48, 48, 48));
+  color: rgb(163, 163, 163);
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
